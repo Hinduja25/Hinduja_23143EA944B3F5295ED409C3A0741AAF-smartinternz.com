@@ -1,0 +1,40 @@
+def _contact(name,phone,email):
+    contact={
+        "name":name,
+        "phone":phone,
+        "email":email
+    }
+    print(f"contact:{name}")
+    if name in contact:
+        contact=contact[name]
+        print(f"name:{name}")
+        print(f"phonef{phone}")
+        print(f"emailf{email}")
+    else:
+        print(f"contacr:{name}")
+    print("list of contact")
+    for name in contact:
+        print(name)
+def main():
+    while true:
+        choice=input("enter choice:")
+    if choice=="1":
+        name=input("enter name:")
+        phone=int(input("enter mb1 number:"))
+        email=input("enter email:")
+    elif choice=="2":
+        
+        name=input("enter name:")
+        phone=int(input("enter mb1 number:"))
+        email=input("enter emaill:")
+    elif choice=="3":
+        name=input("enter name:")
+        phone=int(input("enter mb1 number:"))
+        email=input("enter email:")
+    else:
+        print("invalid choice")
+if __name__=="__main":
+    main()
+         
+    
+    
